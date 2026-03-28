@@ -1,0 +1,34 @@
+name: content-moderation-env
+version: "1.0.0"
+description: >
+  A real-world content moderation environment where an AI agent
+  classifies social media posts as safe, spam, hate_speech,
+  misinformation, or harmful.
+author: shivamtech9395
+tasks:
+  - name: easy
+    display_name: Spam Detection
+    difficulty: easy
+    description: Detect obvious spam posts
+    success_threshold: 0.7
+  - name: medium
+    display_name: Hate Speech Identification
+    difficulty: medium
+    description: Identify hate speech in social media posts
+    success_threshold: 0.65
+  - name: hard
+    display_name: Misinformation Detection
+    difficulty: hard
+    description: Detect subtle misinformation and harmful content
+    success_threshold: 0.55
+action_space:
+  type: categorical
+  values: [safe, spam, hate_speech, misinformation, harmful]
+observation_space:
+  - post_id: string
+  - text: string
+  - task_name: string
+  - step: integer
+  - total_steps: integer
+  - context: string
+reward_range: [0.0, 1.0]
