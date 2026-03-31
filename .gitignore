@@ -1,4 +1,7 @@
 .env
 .venv/
+.venv_1/
 __pycache__/
 *.pyc
+frontend/
+hf-space/

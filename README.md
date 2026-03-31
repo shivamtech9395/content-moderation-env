@@ -1,3 +1,12 @@
+---
+title: Content Moderation OpenEnv
+emoji: 🛡️
+colorFrom: teal
+colorTo: blue
+sdk: docker
+app_file: app.py
+pinned: false
+---
 # 🛡️ Content Moderation OpenEnv
 
 > A real-world OpenEnv environment where AI agents learn to moderate social media content — detecting spam, hate speech, and misinformation with meaningful reward signals.
