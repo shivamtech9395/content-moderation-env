@@ -1,7 +1,10 @@
-.env
-.venv/
-.venv_1/
-__pycache__/
-*.pyc
+.claude/
+claude-code-toolbox-mcp*/
 frontend/
 hf-space/
+.env
+.venv*/
+__pycache__/
+*.pyc
+
+
