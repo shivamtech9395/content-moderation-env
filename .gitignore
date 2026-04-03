@@ -1,6 +1,3 @@
-.claude/
-claude-code-toolbox-mcp*/
-frontend/
 hf-space/
 .env
 .venv*/
