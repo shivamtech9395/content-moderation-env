@@ -1,0 +1,23 @@
+[project]
+name = "content-moderation-openenv"
+version = "1.0.0"
+description = "AI Content Moderation Environment for OpenEnv Hackathon"
+authors = [
+    { name = "Shivam Vishwakarma" }
+]
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+    "openai",
+    "huggingface_hub",
+    "python-dotenv",
+    "numpy",
+    "pyyaml",
+    "python-multipart"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
